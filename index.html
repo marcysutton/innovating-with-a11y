@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Innovating with Accessibility in Mind - Marcy Sutton</title>
+
+		<meta name="description" content="Innovating with Accessibility in Mind">
+		<meta name="author" content="Marcy Sutton">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+		<link href="https://fonts.googleapis.com/css?family=Lora:700|Roboto" rel="stylesheet">
+
+		<link rel="stylesheet" href="css/reveal.css">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/tomorrow-night-bright.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/theme/marcysutton.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-state="title-slide">
+          <h1>Innovating with Accessibility in Mind</h1>
+					<p>Marcy Sutton – Bellingham, WA, USA</p>
+          <p><a href="http://marcysutton.com/fluent17">http://marcysutton.com/fluent17</a> – <a href="https://twitter.com/marcysutton">@marcysutton</a></p>
+          <aside class="notes">
+
+          </aside>
+				</section>
+
+        <section data-background-image="img/iansride1.jpg" data-background-size="cover" data-state="hide-footer">
+          <div class="headlineOverImg offscreen">
+            <h2 class="h4-style">Physical disabilities +<br>technology =<br>independence</h2>
+          </div>
+          <aside class="notes">
+          Your life could change in an instant. Here is Todd Stabelfeldt and Ian Mackay, who both navigate the world in wheelchairs. Without the mobile devices powering both their chairs and communication, they wouldn't be nearly as independent.
+          </aside>
+        </section>
+
+        <section data-background-image="img/tandem-biking.jpg" data-state="hide-footer">
+          <div class="headlineOverImg offscreen">
+            <h2 class="h4-style">Vision loss +<br>technology =<br>employment opportunities</h2>
+            <p class="offscreen">Image: tandem biking with Elle, Laura and Steve (who are blind)</p>
+          </div>
+        </section>
+
+        <section data-background-image="img/cascadiajs-captions.jpg" data-state="hide-footer" data-background-size="contain" data-background-color="black">
+          <div class="headlineOverImg offscreen">
+            <h2 class="h4-style">Hearing loss +<br>technology =<br>an equal playing field</h2>
+          </div>
+        </section>
+
+        <section data-background-image="img/jamie-knight.png" data-background-position="center top" data-state="hide-footer">
+          <div class="headlineOverImg offscreen">
+            <h2 class="h4-style">Autism =<br>unique perspective</h2>
+          </div>
+        </section>
+
+        <section>
+          <h2>1/5 of the population</h2>
+          <h3>has some kind of disability</h3>
+          <p><em>More than old IE users!</em></p>
+          <aside class="notes">
+          That's WAY more people to accommodate than users of old versions of IE.
+          </aside>
+        </section>
+
+        <section data-background-image="img/ux-prototyping.jpg" data-background-size="cover" data-state="hide-footer">
+          <h2 class="headlineOverImg h3-style">Accessibility starts with UX</h2>
+        </section>
+
+        <section data-background-image="img/programmer.jpg" data-background-size="cover" data-state="hide-footer">
+          <h2 class="headlineOverImg h3-style">Accessibility is about software quality</h2>
+        </section>
+
+        <section>
+          <h2>Accessibility and CI</h2>
+          <h3>@ Fluent Thursday, 3:35-4:15pm<br>
+          Location: 210 AE</h3>
+        </section>
+
+        <section>
+          <h2>Websites don’t have to be boring to be accessible</h2>
+          <aside class="notes">
+            Intuitive UX: learnable, understandable, habitual
+            You can use options for personalization, including browser/OS settings
+            If you make things hard to use or subtle, you're probably affecting more people than you think, e.g. color contrast
+          </aside>
+        </section>
+
+        <section data-background-image="img/simply-accessible.png" data-state="hide-footer" data-background-position="center top">
+          <h2 class="offscreen">Simply Accessible website</h2>
+        </section>
+
+        <section data-background-image="img/target-corporate.png" data-state="hide-footer" data-background-position="center top">
+          <h2 class="offscreen">Target Corporate website 2013</h2>
+        </section>
+
+        <section>
+          <h2>Accessibility can be<br>cutting-edge</h2>
+          <aside class="notes">
+            Keyboard support
+            Focus management + indicators
+            Screen reader notifications
+            Text alternatives: includes SR text and captions/transcripts
+          </aside>
+        </section>
+
+        <section data-background-video="videos/Blackboard-VO.mp4" data-state="hide-footer" data-background-size="contain" data-background-color="#000" data-background-position="center top">
+          <h2 class="offscreen">Blackboard keyboard demo</h2>
+          <aside class="notes">
+          Focus management
+          </aside>
+        </section>
+
+        <section>
+          <h2>Consider alternate inputs</h2>
+          <aside class="notes">
+            Switch: Ian Mackay with his wheelchair and blowing into a tube
+            Charlie Gerard's talk on mind control with JavaScript
+            Balance privacy: turn voice input on with an affordance rather than listening all the time
+            Motion/trust: Provide error states and ways to undo
+          </aside>
+        </section>
+
+        <section data-state="hide-footer">
+          <h2 class="offscreen">Input modalities</h2>
+          <figure><a href="https://www.researchgate.net/figure/236650972_fig1_Fig-1-Typical-examples-of-input-modalities-in-interactive-tabletop-systems"><img data-src="img/input-modalities.png" alt="Examples of input modalities in interactive tabletop systems" style="min-height: 500px;"></a></figure>
+        </section>
+
+        <section>
+          <h2 class="offscreen">Future Code: mind control with JavaScript</h2>
+          <iframe title="Tweet from Charlie Gerard" data-src="mind-control.html" style="min-width: 510px;min-height: 670px"></iframe>
+        </section>
+
+        <section data-state="hide-footer">
+          <h2 class="offscreen">Switch Control</h2>
+          <!--
+          <iframe width="1280" height="720" src="https://www.youtube-nocookie.com/embed/Fj8DLKemEnE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen title="iOS Switch Control Demo"></iframe> -->
+          <iframe width="1280" height="720" src="https://www.youtube-nocookie.com/embed/36xrFzqfxRY?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen title="iOS Switch Control Demo - Audio Described"></iframe>
+          <aside class="notes">
+            Support for switch control: simple layouts when collecting user data. The biggest takeaway is that people don't all navigate the web the same way. Technology can be liberating, providing people with freedom and independence. We can support them 
+          </aside>
+        </section>
+
+        <section>
+          <h2>Recap</h2>
+          <ul>
+            <li class="fragment">Accessibility impacts us all.</li>
+            <li class="fragment">It starts with UX!</li>
+            <li class="fragment">It’s about software quality.</li>
+            <li class="fragment">It doesn't have to be boring.</li>
+            <li class="fragment">You can start now!</li>
+          </ul>
+          <aside class="notes">
+          
+          </aside>
+        </section>
+        
+        <section>
+          <h2>Resources</h2>
+          <ul>
+            <li><a href="https://dequeuniversity.com/">dequeuniversity.com</a></li>
+            <li><a href="http://webaim.org/">webaim.org</a></li>
+            <li><a href="http://a11yproject.com/">a11yproject.com</a></li>
+            <li><a href="https://a11ywins.tumblr.com/">a11ywins.tumblr.com</a></li>
+            <li><a href="http://bit.ly/a11y-resources">bit.ly/a11y-resources</a></li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 class="h1-style">Thanks, Fluent!</h2>
+          <ul style="list-style: none;">
+            <li style="margin-top: 0.75em;"><img data-src="img/TwitterLogo_white.svg" alt="Twitter" style="width: 1.5em; height: 1.5em; display: inline-block; margin: 0 20px -20px;" class="plain"><a href="https://twitter.com/marcysutton">twitter.com/marcysutton</a></li>
+            <li style="margin-top: 0.75em;"><img data-src="img/github-logomark.svg" alt="Github" style="width: 1.5em; height: 1.5em; display: inline-block; margin: 0 20px -20px;" class="plain"><a href="https://github.com/marcysutton">github.com/marcysutton</a></li>
+          </ul>
+        </section>
+      </div>
+
+			<footer role="contentinfo">
+        <p class="copyright">Innovating with Accessibility in Mind<br>
+          <a href="http://twitter.com/marcysutton" target="_blank" title="Link opens in a new window">@marcysutton</a> <span aria-hidden="true">/</span> <a href="http://marcysutton.com/fluent17" target="_blank" title="Link opens in a new window">marcysutton.com/fluent17</a></p>
+      </footer>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+      
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+        keyboard: {
+          27: function() {} // do something custom when ESC is pressed
+        },
+				// The "normal" size of the presentation, aspect ratio will be preserved
+		    // when the presentation is scaled to fit different resolutions. Can be
+		    // specified using percentage units.
+		    width: 1440,
+		    height: 900,
+
+		    // Factor of the display size that should remain empty around the content
+		    margin: 0,
+
+		    // Bounds for smallest/largest possible scale to apply to content
+		    minScale: 0.2,
+		    maxScale: 1.0,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true },
+          { src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/accessibility-helpers/accessibility-helpers.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+		</script>
+	</body>
+</html>
