@@ -104,7 +104,7 @@ body {
       color: #55491F; }
       .light-background .reveal a:hover, .light-background .reveal a:focus, .reveal.has-light-background a:hover, .reveal.has-light-background a:focus {
         color: #000; }
-  .reveal iframe {
+  .reveal iframe:not(.plain) {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75); }
   .reveal code {
     font-size: 110%;
